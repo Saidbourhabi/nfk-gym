@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFK - ONLINE COACHING</title>
+    <link rel="stylesheet" href="../style/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- *Header  -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="../../index.html">
+                    <span class="logo-icon"><i class="fas fa-dumbbell"></i></span>
+                    <span class="logo-text">NFK</span>
+                </a>
+            </div>
+            
+            <nav class="navbar-menu">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#Home" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Yoga</a></li>
+                    <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#programs" class="nav-link">Programs <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Balance Body Mind</a>
+                            <a href="#">Routine Program</a>
+                            <a href="#">Nutrition Plan</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="navbar-cta">
+                <a href="../../index.html" class="cta-button">Back To Home</a>
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <!-- *Contact -->
+    <section id="Contact">
+        <div class="form-container">
+            <div class="form-content">
+                <h2 class="form-title">Get Your <span>Personalized</span> Plan</h2>
+                <form class="fitness-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="height">Height (cm)</label>
+                            <input type="text" id="height" class="form-control" placeholder="e.g. 175" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="weight">Weight (kg)</label>
+                            <input type="text" id="weight" class="form-control" placeholder="e.g. 70" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="goal">Your Fitness Goal</label>
+                        <select id="goal" class="form-control" required>
+                            <option value="" disabled selected>Select your goal</option>
+                            <option value="lose-weight">Lose Weight</option>
+                            <option value="build-muscle">Build Muscle</option>
+                            <option value="get-toned">Get Toned</option>
+                            <option value="improve-endurance">Improve Endurance</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" class="form-control" placeholder="Tell us about your fitness background, injuries, or special requirements"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">
+                        Get My Plan
+                        <svg width="14" height="14" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- *footer* -->
+    <footer id="Footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-dumbbell"></i></span>
+                        <span class="logo-footer-text">NFK</span>
+                    </div>
+                    <h3 class="motivational-title">Transform Your Life <span>One Workout</span> At A Time</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h4 class="links-title">Quick Links</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#Home" class="footer-link">Home</a></li>
+                            <li><a href="#About" class="footer-link">About</a></li>
+                            <li><a href="#Services" class="footer-link">Services</a></li>
+                            <li><a href="#Contact" class="footer-link">Contact Me</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4 class="links-title">Programs</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#" class="footer-link">Personal Training</a></li>
+                            <li><a href="#" class="footer-link">Nutrition Plans</a></li>
+                            <li><a href="#" class="footer-link">Online Coaching</a></li>
+                            <li><a href="#" class="footer-link">Group Classes</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4 class="links-title">Contact</h4>
+                        <ul class="footer-nav">
+                            <li><a href="tel:+212619264916" class="footer-link">+212 (619) 264-916</a></li>
+                            <li><a href="mailto:kouloudnafki123@gmail.com" class="footer-link">kouloudnafki123@gmail.com</a></li>
+                            <li><a href="#" class="footer-link">123 Fitness St, Gym City</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 NFK Fitness. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
